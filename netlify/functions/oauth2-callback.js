@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 
 export async function handler(event) {
   const CLIENT_ID = '459917020247-ual4frer6m7gqiuhqdf4a08kfcijpm77.apps.googleusercontent.com';
