@@ -1049,7 +1049,7 @@ if (type === 'Entertainment') {
     box.addEventListener('click', function(e) {
       e.preventDefault();
       window.open(
-        "https://accounts.google.com/o/oauth2/v2/auth?client_id=459917020247-ual4frer6m7gqiuhqdf4a08kfcijpm77.apps.googleusercontent.com&redirect_uri=https://onboarding.cutline.co/oauth2/callback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly&access_type=offline&prompt=consent",
+        "https://accounts.google.com/o/oauth2/v2/auth?client_id=459917020247-ual4frer6m7gqiuhqdf4a08kfcijpm77.apps.googleusercontent.com&redirect_uri=https://onboarding.cutline.co/.netlify/functions/oauth2-callback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly&access_type=offline&prompt=consent",
         "google_oauth",
         "width=500,height=700,left=100,top=100"
       );
