@@ -1,7 +1,7 @@
 
 export async function handler(event) {
   const CLIENT_ID = '459917020247-ual4frer6m7gqiuhqdf4a08kfcijpm77.apps.googleusercontent.com';
-  const CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET; // Add this in Netlify env vars
+  const CLIENT_SECRET = process.env.YT_CLIENT_SECRET; // Add this in Netlify env vars
   const REDIRECT_URI = 'https://onboarding.cutline.co/.netlify/functions/oauth2-callback';
 
   // Extract the authorization code from the URL query
